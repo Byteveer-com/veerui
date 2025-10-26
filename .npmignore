@@ -1,0 +1,4 @@
+src/tailwind.css
+src/index.css
+src/stories/*
+.storybook/
