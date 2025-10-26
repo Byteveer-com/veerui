@@ -12,12 +12,30 @@ type Story = StoryObj<typeof Button>;
 export const Primary: Story = {
   args: {
     children: 'Click me',
-    type: 'primary'
+    variant: 'primary'
   },
 };
 export const Secondary: Story = {
   args: {
     children: 'Click me',
-    type: 'secondary'
+    variant: 'secondary'
+  },
+};
+export const Red: Story = {
+  args: {
+    children: 'Click me',
+    variant: 'red'
+  },
+};
+export const Yellow: Story = {
+  args: {
+    children: 'Click me',
+    variant: 'yellow'
+  },
+};
+export const Green: Story = {
+  args: {
+    children: 'Click me',
+    variant: 'green'
   },
 };
